@@ -1,0 +1,52 @@
+body{
+    background-color: darkslateblue;
+}
+
+.imgBox{
+    background-image: url(login-hero.svg);
+    height:145px ;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 145px;
+}
+
+
+
+.imgBox img{
+    height:145px ;
+    position: relative;
+    left: 2px;
+    width: 145px;
+}
+
+.Box{
+    display: inline-block;
+    height:155px ;
+    width: 155px;
+    cursor: pointer;
+    background-color: white;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.reset{
+    display: block;
+    position: relative;
+    right: -190px;
+    width: 60px;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    
+}
+.hold{
+    border: 2px solid green;
+    border-radius: 6px;
+}
+.hide{
+    display: none;
+}
